@@ -101,10 +101,11 @@ body {
 
 #header {
   background-image: url(../imgs/header2.jpg);
-  background-position: center;
-  background-size: cover;
+  background-position: center center;
+  background-size: auto 80%;
   background-repeat: no-repeat;
-  height: 550px;
+  background-color: white;
+  height: 500px;
 }
 
 #header .container {
