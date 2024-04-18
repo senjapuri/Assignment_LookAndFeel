@@ -423,6 +423,51 @@ body {
 /* Requests End */
 /***************************/
 
+/* About us */
+/*****************************************************************/
+
+#team-members {
+  background-color: #f8f9fa; /* Light background color */
+  padding: 50px 0; /* Add padding */
+  text-align: center; /* Center-align content */
+}
+
+.team-member {
+  background-color: #fff; /* White background color for each member */
+  padding: 20px; /* Add padding */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+  transition: transform 0.3s ease-in-out; /* Smooth transition */
+  margin-bottom: 30px; /* Add space between members */
+}
+
+.team-member:hover {
+  transform: translateY(-10px); /* Move up on hover */
+}
+
+.team-member img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%; /* Make images circular */
+  margin-bottom: 20px; /* Add some space below the image */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Add shadow to images */
+}
+
+.team-member h4 {
+  font-size: 1.5rem; /* Larger font size for member names */
+  margin-bottom: 10px; /* Add space below the name */
+  color: #333; /* Dark text color */
+}
+
+.team-member p {
+  font-size: 1rem; /* Regular font size for additional info */
+  color: #666; /* Slightly lighter text color */
+}
+
+
+/* About us */
+/*****************************************************************/
+
 /***************************/
 /* Call Us Start */
 
