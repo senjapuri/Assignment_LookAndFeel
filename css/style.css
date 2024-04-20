@@ -263,7 +263,8 @@ body {
 /***************************/
  
 
-/* Guide */
+/* Guide Start */
+
 #Guide {
   overflow: hidden;
   padding-top: 50px;
@@ -301,7 +302,8 @@ button[type="submit"]:hover {
 p {
   margin-top: 10px;
 }
-/* Guide */
+
+/* Guide End */
 
 
 /***************************/
