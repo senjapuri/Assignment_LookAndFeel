@@ -2,51 +2,6 @@ body {
   font-family: "Times New Roman", Times, serif;
 }
 
-/***************************/
-/* Nav 1 Start */
-
-#Nav1 .nav-item i {
-  color: white;
-  font-size: 14px;
-}
-
-#Nav1 .navbar-nav li .selected {
-  color: red;
-}
-
-#Nav1 .navbar-brand i {
-  color: white;
-}
-
-#Nav1 .fa-twitter:hover {
-  color: #1489ed;
-}
-
-#Nav1 .fa-facebook-f:hover {
-  color: #3b24ea;
-}
-
-#Nav1 .fa-whatsapp:hover {
-  color: darkgreen;
-}
-
-#Nav1 .fa-instagram:hover {
-  color: red;
-}
-
-.fa-twitter,
-.fa-facebook-f,
-.fa-whatsapp,
-.fa-instagram {
-  transition: color 0.5s;
-}
-
-/* #Nav1 .navbar-nav li:active{
-  color: red;
-} */
-
-/* Nav 1 End */
-/***************************/
 
 /***************************/
 /* Nav 2 Start */
@@ -146,10 +101,11 @@ body {
 
 #header {
   background-image: url(../imgs/header2.jpg);
-  background-position: center;
-  background-size: cover;
+  background-position: center center;
+  background-size: auto 80%;
   background-repeat: no-repeat;
-  height: 550px;
+  background-color: white;
+  height: 500px;
 }
 
 #header .container {
@@ -467,96 +423,6 @@ body {
 
 /* About us */
 /*****************************************************************/
-
-/***************************/
-/* Call Us Start */
-
-#call-us {
-  background-image: url(../imgs/call.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 500px;
-}
-
-#call-us .layer {
-  background-color: rgba(5, 5, 5, 0.562);
-  height: 500px;
-}
-
-#call-us h1 {
-  text-align: center;
-  color: white;
-  padding: 90px 0px 30px 0px;
-}
-
-#call-us h4 {
-  text-align: center;
-  color: white;
-  margin: 0px 0px 30px 0px;
-}
-
-#call-us h3 {
-  text-align: center;
-  color: white;
-  margin: 10px 0px 30px 60px;
-  padding: 20px 10px 20px 0px;
-  border-radius: 50px;
-  width: 30%;
-  background-color: green;
-}
-
-#call-us .whats {
-  text-align: center;
-  margin-top: 50px;
-}
-
-#call-us .whats img {
-  display: inline-block;
-  position: absolute;
-}
-
-#call-us .whats h3 {
-  display: inline-block;
-}
-
-/* Call Us End */
-/***************************/
-
-/***************************/
-/* App Start */
-
-#app {
-  background-image: url(../imgs/BG-phone.png);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 500px;
-}
-
-#app .info {
-  padding-top: 60px;
-}
-
-#app .info h1 {
-  padding-bottom: 20px;
-}
-
-#app .info h3 {
-  padding-bottom: 20px;
-  line-height: 1.5em;
-}
-
-#app .info h4 {
-  padding-bottom: 20px;
-  margin-left: 30%;
-}
-
-#app .app-screen {
-  padding-top: 50px;
-}
-/* App End */
-/***************************/
 
 /***************************/
 /* Footer Start */
