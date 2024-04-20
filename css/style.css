@@ -439,9 +439,9 @@ body {
   background-color: rgb(51, 58, 65);
   height: auto;
   color: white;
-  bottom: 0;
   position: fixed;
-  width: 100vw;
+  bottom: 0;
+  width: 100%;
 }
  
 #footer .foot-info {
@@ -481,6 +481,10 @@ body {
  
 #footer .menu a:hover {
   color: rgb(213, 3, 1);
+}
+
+#sub-footer{
+  margin-bottom: 160px;
 }
  
 /* Footer End */
@@ -902,7 +906,7 @@ body {
   width: 77%;
   padding-top: 30px;
   padding-bottom: 30px;
-  margin-bottom: 50px;
+  margin-bottom: 20%;
   box-shadow: 2px 2px 5px 5px #e7e6e6;
 }
  
