@@ -1,5 +1,7 @@
+
 body {
   font-family: "Times New Roman", Times, serif;
+  height: 100%;
 }
 
 
@@ -429,17 +431,26 @@ body {
 
 #footer {
   background-color: rgb(51, 58, 65);
-  height: 320px;
+  height: auto;
   color: white;
 }
 
 #footer .foot-info {
-  padding-top: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   width: 90%;
+  margin: 0 auto;
 }
 
 #footer .foot-info p {
-  padding-top: 30px;
+  padding-top: 20px;
+}
+
+#footer ul {
+  padding-top: 20px;
+  display: inline-flex;
+  list-style: none;
+  text-align: center;
 }
 
 #footer ul a {
@@ -447,6 +458,7 @@ body {
   margin-bottom: 10px;
   text-decoration: none;
   color: white;
+  width: 120px;
 }
 
 #footer ul a li {
@@ -457,31 +469,6 @@ body {
   color: rgb(213, 3, 1);
 }
 
-#footer ul {
-  padding-top: 50px;
-  list-style: none;
-  text-align: center;
-}
-
-#footer .options h5 {
-  color: rgb(213, 3, 1);
-  padding-bottom: 15px;
-}
-
-#footer .options {
-  margin-left: 30px;
-  text-align: left;
-}
-
-#footer .options img {
-  margin-bottom: 10px;
-}
-
-#footer .options img:hover {
-  background-color: lightgray;
-  transition: background-color 0.8s;
-  border-radius: 5px;
-}
 /* Footer End */
 /***************************/
 
@@ -942,3 +929,6 @@ body {
 
 /*****************************************************************/
 
+
+
+**/
