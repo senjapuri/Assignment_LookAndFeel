@@ -262,6 +262,48 @@ body {
 /* Articles End */
 /***************************/
  
+
+/* Guide */
+#Guide {
+  overflow: hidden;
+  padding-top: 50px;
+}
+#Guide .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+#Guide .left {
+  width: 45%;
+}
+#Guide .right {
+  width: 45%;
+}
+#Guide .form-group {
+  margin-bottom: 20px;
+}
+input[type="text"],
+input[type="email"],
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+p {
+  margin-top: 10px;
+}
+/* Guide */
+
+
 /***************************/
 /* Requests Start */
  
@@ -453,7 +495,7 @@ body {
 #footer .foot-info p {
   padding-top: 20px;
 }
-
+ 
 #footer .footer-menu{
   display: flex;
   align-items: center;
@@ -481,7 +523,7 @@ body {
 #footer .menu a:hover {
   color: rgb(213, 3, 1);
 }
-
+ 
 #sub-footer{
   margin-bottom: 160px;
 }
