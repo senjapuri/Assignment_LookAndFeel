@@ -381,7 +381,7 @@ body {
 /* Requests End */
 /***************************/
 
-/* About us */
+//* About us */
 /*****************************************************************/
 
 #team-members {
@@ -397,6 +397,7 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
   transition: transform 0.3s ease-in-out; /* Smooth transition */
   margin-bottom: 30px; /* Add space between members */
+  text-align: center;
 }
 
 .team-member:hover {
@@ -415,6 +416,7 @@ body {
   font-size: 1.5rem; /* Larger font size for member names */
   margin-bottom: 10px; /* Add space below the name */
   color: #333; /* Dark text color */
+  text-align: center;
 }
 
 .team-member p {
@@ -422,9 +424,14 @@ body {
   color: #666; /* Slightly lighter text color */
 } 
 
+/* Style for LinkedIn and GitHub icons */
+.team-member a img {
+  margin-right: 10px; /* Add space between icons */
+  width: 30px; /* Set width for icons */
+  height: 30px; /* Set height for icons */
+  justify-content: center; /* Center icons horizontally */
+}
 
-/* About us */
-/*****************************************************************/
 
 /***************************/
 /* Footer Start */
