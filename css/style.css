@@ -439,6 +439,9 @@ body {
   background-color: rgb(51, 58, 65);
   height: auto;
   color: white;
+  bottom: 0;
+  position: fixed;
+  width: 100vw;
 }
  
 #footer .foot-info {
@@ -450,6 +453,11 @@ body {
  
 #footer .foot-info p {
   padding-top: 20px;
+}
+
+#footer .footer-menu{
+  display: flex;
+  align-items: center;
 }
  
 #footer ul {
