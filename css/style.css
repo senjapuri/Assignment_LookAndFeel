@@ -285,8 +285,7 @@ body {
 #Guide .form-group {
   margin-bottom: 20px;
 }
-input[type="text"],
-input[type="email"],
+
 button[type="submit"] {
   width: 100%;
   padding: 10px;
