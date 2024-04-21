@@ -683,16 +683,16 @@ p {
  
  
  
-/* Who we are Page Start */
+/* Dashboard Start */
 /*****************************************************************/
  
-#who .container img{
+#dashboard .container img{
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
  
-#who .container {
+#dashboard .container {
   border: 1px solid lightgray;
   border-radius: 5px;
   width: 77%;
@@ -702,7 +702,7 @@ p {
   box-shadow: 2px 2px 5px 5px #e7e6e6;
 }
  
-#who .container p{
+#dashboard .container p{
   margin: 30px 20px 0px 20px;
   font-size: 16px;
   color: gray;
@@ -710,7 +710,8 @@ p {
 }
  
 /*****************************************************************/
- 
+
+
  
  
 /* Contact Page Start */
