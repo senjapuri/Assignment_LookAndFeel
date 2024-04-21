@@ -29,23 +29,29 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link " href="index.html">Home</a>
+                        <a class="nav-link selected" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="About-us.html">About Us</a>
+                        <a class="nav-link" href="About-us.html">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="article.html">Articles</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link selected" href="donator.html">Donations</a>
+                        <a class="nav-link" href="article.html">Articles</a>
                     </li>
                     <li class="nav-item">
  
-                        <a class="nav-link " href="dashboard.html">Dashboard</a>
+                        <a class="nav-link" href="dashboard.html">Dashboard</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="contact-us.html">Contact Us</a>
+                        <a class="nav-link" href="donor.html">Donors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Recipients.html">Recipients</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="bloodBag.html">BloodBag Availability</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact-us.html">Contact Us</a>
                     </li>
                 </ul>
                 
@@ -71,48 +77,43 @@
 <section id="donator">
     <div class="container">
         <div class="text-center">
-            <h2 style="color: darkred; display: inline-block;">Donor Registration Form</h2>
+            <h2 style="color: darkred; display: inline-block;">Blood Bags Available</h2>
         </div>
-        <form id="addDonorForm">
+        <form id="addBBForm">
             <div class="form-group">
-                <label for="DonorName">Donor Name:</label>
-                <input type="text" id="DonorName" class="form-control" placeholder="Enter donor name" required>
+                <label for="DonationDate">Donoation Date</label>
+                <input type="text" id="DonationDate" class="form-control" placeholder="Enter donation date" required>
             </div>
 
             <div class="form-group">
-                <label for="Age">Age:</label>
-                <input type="text" id="Age" class="form-control" placeholder="Enter age" required>
+                <label for="ExpiryDate">Expiry Date</label>
+                <input type="text" id="ExpiryDate" class="form-control" placeholder="Enter expiry date" required>
             </div>
 
             <div class="form-group">
-                <label for="RegistrationDate">Registration Date:</label>
-                <input type="text" id="RegistrationDate" class="form-control" placeholder="Enter registration date" required>
+                <label for="BloodBagsBloodType">Blood type</label>
+                <input type="text" id="BloodBagsBloodType" class="form-control" placeholder="Enter Blood Type" required>
             </div>
 
             <div class="form-group">
-                <label for="BloodType">Blood Type:</label>
-                <input type="text" id="BloodType" class="form-control" placeholder="Enter blood type" required>
+                <label for="Volume">Volume</label>
+                <input type="text" id="Volume" class="form-control" placeholder="Enter Volume" required>
             </div>
 
-            <div class="form-group">
-                <label for="Contact">Contact:</label>
-                <input type="text" id="Contact" class="form-control" placeholder="Enter contact number" required>
-            </div>
 
             
 
-            <button type="submit" class="btn btn-primary">Add Donor</button>
+            <button type="submit" class="btn btn-primary">Add Blood Bags</button>
         </form>
 
         <!-- Table to display existing donors -->
-        <table id="donorTable" class="table">
+        <table id="BBTable" class="table">
             <thead>
                 <tr>
-                    <th>Donor Name</th>
-                    <th>Age</th>
-                    <th>Registration Date</th>
+                    <th>Donation Date</th>
+                    <th>Expiry Date</th>
                     <th>Blood Type</th>
-                    <th>Contact</th>
+                    <th>Volume</th>
                     <th>Action</th>
                 </tr>
             </thead>
@@ -122,32 +123,27 @@
         </table>
 
         <!-- Add this modal markup at the end of your HTML body -->
-        <div id="editDonorModal" class="modal">
+        <div id="editBBModal" class="modal">
             <div class="modal-content">
                 <span class="close">&times;</span>
                 <div class="form-group">
-                    <label for="newName">New Donor Name:</label>
-                    <input type="text" id="newName" class="form-control" required>
+                    <label for="newBBDonationDate">Donoation Date</label>
+                    <input type="text" id="newBBDonationDate" class="form-control" required>
                 </div>
 
                 <div class="form-group">
-                    <label for="newAge">New Age:</label>
-                    <input type="text" id="newAge" class="form-control" required>
+                    <label for="newBBExpiryDate">Expiry Date</label>
+                    <input type="text" id="newBBExpiryDate" class="form-control" required>
                 </div>
 
                 <div class="form-group">
-                    <label for="newRegistration">New Registration Date:</label>
-                    <input type="text" id="newRegistration" class="form-control" required>
+                    <label for="newBBBloodType">Blood type</label>
+                    <input type="text" id="newBBBloodType" class="form-control" required>
                 </div>
 
                 <div class="form-group">
-                    <label for="newBloodType">New Blood Type:</label>
-                    <input type="text" id="newBloodType" class="form-control" required>
-                </div>
-
-                <div class="form-group">
-                    <label for="newContact">New Contact:</label>
-                    <input type="text" id="newContact" class="form-control" required>
+                    <label for="newBBVolume">Volume</label>
+                    <input type="text" id="newBBVolume" class="form-control" required>
                 </div>
 
 
@@ -179,15 +175,21 @@
                         <a href="About-us.html">
                             <li>About Us</li>
                         </a>
-                        <a href="#articles">
+                        <a href="#article.html">
                             <li>Articles</li>
-                        </a>
-                        <a href="requests.html">
-                            <li>Donations</li>
                         </a>
                         <a href="dashboard.html">
                             <li>Dashboard</li>
                         </a> 
+                        <a href="donor.html">
+                            <li>Donors</li>
+                        </a>
+                        <a href="Recipients.html">
+                            <li>Recipients</li>
+                        </a>
+                        <a href="bloodBag.html">
+                            <li>BloodBag Availability</li>
+                        </a>  
                         <a href="contact-us.html">
                             <li>Contact Us</li>
                         </a>
@@ -206,7 +208,7 @@
     <script type="text/javascript" src="js/swiper.min.js"></script>
     <script type="text/javascript" src="js/wow.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
-    <script type="text/javascript" src="js/script.js"></script> 
+    <script type="text/javascript" src="js/BloodBags.js"></script> 
 </body>
  
 </html>
