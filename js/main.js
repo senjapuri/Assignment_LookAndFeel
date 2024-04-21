@@ -1,5 +1,21 @@
 $(document).ready(function () {
 
+  $('#contactForm').submit(function(event) {
+    event.preventDefault(); // Prevent default form submission behavior
+    // Get form input values
+    var name = $('#name').val();
+    var email = $('#email').val();
+    var phone = $('#phone').val();
+    var title = $('#title').val();
+    var message = $('#message').val();
+
+    // Display confirmation message
+    $('#confirmationMessage').show();
+    // Optionally, you can reset the form after submission
+    // $('#contactForm').trigger('reset');
+  });
+
+
   var mySwiper = new Swiper('.swiper-container', {
     slidesPerView: 3,
     loop: true,
