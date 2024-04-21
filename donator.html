@@ -48,8 +48,7 @@
                         <a class="nav-link " href="contact-us.html">Contact Us</a>
                     </li>
                 </ul>
-                <button class="btn signup" onclick= "window.location.href = 'signup.html';">New Account</button>
-                <button class="btn login" onclick= "window.location.href = 'login.html';">Login</button>
+                
             </div>
         </nav>
     </section>
@@ -68,77 +67,98 @@
     <!-- Navigator End -->
  
     <!-- donator Start -->
-    <section id="donator">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <table class="table table-bordered">
-                        <tr>
-                            <th>Name:</th>
-                            <td>Omar Reda</td>
-                        </tr>
-                        <tr>
-                            <th>Age:</th>
-                            <td>21</td>
-                        </tr>
-                        <tr>
-                            <th>Hospital:</th>
-                            <td>Andalusia Hospital</td>
-                        </tr>
-                    </table>
+<!-- donator Start -->
+<section id="donator">
+    <div class="container">
+        <div class="text-center">
+            <h2 style="color: darkred; display: inline-block;">Donor Registration Form</h2>
+        </div>
+        <form id="addDonorForm">
+            <div class="form-group">
+                <label for="DonorName">Donor Name:</label>
+                <input type="text" id="DonorName" class="form-control" placeholder="Enter donor name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="Age">Age:</label>
+                <input type="text" id="Age" class="form-control" placeholder="Enter age" required>
+            </div>
+
+            <div class="form-group">
+                <label for="RegistrationDate">Registration Date:</label>
+                <input type="text" id="RegistrationDate" class="form-control" placeholder="Enter registration date" required>
+            </div>
+
+            <div class="form-group">
+                <label for="BloodType">Blood Type:</label>
+                <input type="text" id="BloodType" class="form-control" placeholder="Enter blood type" required>
+            </div>
+
+            <div class="form-group">
+                <label for="Contact">Contact:</label>
+                <input type="text" id="Contact" class="form-control" placeholder="Enter contact number" required>
+            </div>
+
+            
+
+            <button type="submit" class="btn btn-primary">Add Donor</button>
+        </form>
+
+        <!-- Table to display existing donors -->
+        <table id="donorTable" class="table">
+            <thead>
+                <tr>
+                    <th>Donor Name</th>
+                    <th>Age</th>
+                    <th>Registration Date</th>
+                    <th>Blood Type</th>
+                    <th>Contact</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Donor data will be displayed here dynamically -->
+            </tbody>
+        </table>
+
+        <!-- Add this modal markup at the end of your HTML body -->
+        <div id="editDonorModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div class="form-group">
+                    <label for="newName">New Donor Name:</label>
+                    <input type="text" id="newName" class="form-control" required>
                 </div>
-                <div class="col-md-6">
-                <table class="table table-bordered">
-                    <tr>
-                        <th>Blood Type:</th>
-                        <td>A+</td>
-                    </tr>
-                    <tr>
-                        <th>Number of Required Blood Bags:</th>
-                        <td>4</td>
-                    </tr>
-                    <tr>
-                        <th>Phone:</th>
-                        <td>+20 127 245 6884</td>
-                    </tr>
-                </table>
-            </div>
-            <div class="col-md-12">
-                <table class="table table-bordered">
-                    <tr>
-                        <th>Hospital Address:</th>
-                        <td>Alexandria - Somuha - Fouad St. - B122</td>
-                    </tr>
-                </table>
-            </div>
-            </div>
-            <div class="details-container">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim, ipsum reiciendis deleniti dolor quia
-                    voluptate itaque vero doloremque labore consequuntur. Excepturi a neque doloremque. Vitae debitis
-                    sit explicabo tenetur est.
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur cumque, hic enim nostrum assumenda
-                    esse quisquam error doloribus dolorem dolor commodi. Ratione eaque voluptate voluptatibus mollitia
-                    doloremque suscipit perferendis earum.
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. In impedit mollitia similique tenetur,
-                    excepturi soluta culpa perferendis magni perspiciatis ullam porro rerum amet inventore voluptates
-                    ad, minima facere quam asperiores.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet delectus laudantium aut recusandae
-                    quo aliquid cum magni. Praesentium, suscipit dolor reprehenderit unde natus laboriosam? Provident
-                    rem officiis et impedit fugit?
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quasi ullam nemo neque aut
-                    reprehenderit! Animi adipisci omnis eius iure ullam, dolorum odit ut nostrum atque repellat in earum
-                    velit.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum rem natus sapiente, dolores, ratione
-                    ducimus sequi iusto mollitia porro nobis eligendi ipsum, quibusdam minus beatae provident totam enim
-                    est et.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae magnam, debitis veritatis libero
-                    ipsum odio, architecto neque quibusdam cupiditate iste distinctio dignissimos temporibus! Harum eius
-                    possimus tenetur tempora placeat tempore?
-                </p>
+
+                <div class="form-group">
+                    <label for="newAge">New Age:</label>
+                    <input type="text" id="newAge" class="form-control" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="newRegistration">New Registration Date:</label>
+                    <input type="text" id="newRegistration" class="form-control" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="newBloodType">New Blood Type:</label>
+                    <input type="text" id="newBloodType" class="form-control" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="newContact">New Contact:</label>
+                    <input type="text" id="newContact" class="form-control" required>
+                </div>
+
+
+                <button id="saveChangesBtn" class="btn btn-primary">Save Changes</button>
             </div>
         </div>
-    </section>
-    <!-- Who End -->
+    </div>
+</section>
+<!-- donator End -->
+
+
 
     <section id="sub-footer"></section>
  
@@ -165,9 +185,9 @@
                         <a href="requests.html">
                             <li>Donations</li>
                         </a>
-                        <a href="who-we-are.html">
-                            <li>Who We Are?</li>
-                        </a>
+                        <a href="dashboard.html">
+                            <li>Dashboard</li>
+                        </a> 
                         <a href="contact-us.html">
                             <li>Contact Us</li>
                         </a>
@@ -186,6 +206,7 @@
     <script type="text/javascript" src="js/swiper.min.js"></script>
     <script type="text/javascript" src="js/wow.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/script.js"></script> 
 </body>
  
 </html>
