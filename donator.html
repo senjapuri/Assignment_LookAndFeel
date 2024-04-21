@@ -48,8 +48,7 @@
                         <a class="nav-link " href="contact-us.html">Contact Us</a>
                     </li>
                 </ul>
-                <button class="btn signup" onclick= "window.location.href = 'signup.html';">New Account</button>
-                <button class="btn login" onclick= "window.location.href = 'login.html';">Login</button>
+                
             </div>
         </nav>
     </section>
@@ -70,73 +69,60 @@
     <!-- donator Start -->
     <section id="donator">
         <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <table class="table table-bordered">
-                        <tr>
-                            <th>Name:</th>
-                            <td>Omar Reda</td>
-                        </tr>
-                        <tr>
-                            <th>Age:</th>
-                            <td>21</td>
-                        </tr>
-                        <tr>
-                            <th>Hospital:</th>
-                            <td>Andalusia Hospital</td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="col-md-6">
-                <table class="table table-bordered">
+            <form id="addDonorForm">
+                <!-- Inside the form -->
+                <input type="text" id="DonorName" placeholder="Donor Name" required>
+                <input type="text" id="Age" placeholder="Age" required>
+                <input type="text" id="RegistrationDate" placeholder="Registration Date" required>
+                <input type="text" id="BloodType" placeholder="Blood Type" required>
+                <input type="text" id="Contact" placeholder="Contact" required>
+                
+
+                
+                <button type="submit">Add Donor</button>
+            </form>
+            
+            <!-- Table to display existing donors -->
+            <table id="donorTable">
+                <thead>
                     <tr>
-                        <th>Blood Type:</th>
-                        <td>A+</td>
+                        <th> Donor Name</th>
+                        <th> Age</th>
+                        <th> Registration Date</th>
+                        <th>Blood Type</th>
+                        <th>Contact</th>
+                        <th>Action</th>
                     </tr>
-                    <tr>
-                        <th>Number of Required Blood Bags:</th>
-                        <td>4</td>
-                    </tr>
-                    <tr>
-                        <th>Phone:</th>
-                        <td>+20 127 245 6884</td>
-                    </tr>
-                </table>
-            </div>
-            <div class="col-md-12">
-                <table class="table table-bordered">
-                    <tr>
-                        <th>Hospital Address:</th>
-                        <td>Alexandria - Somuha - Fouad St. - B122</td>
-                    </tr>
-                </table>
-            </div>
-            </div>
-            <div class="details-container">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim, ipsum reiciendis deleniti dolor quia
-                    voluptate itaque vero doloremque labore consequuntur. Excepturi a neque doloremque. Vitae debitis
-                    sit explicabo tenetur est.
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur cumque, hic enim nostrum assumenda
-                    esse quisquam error doloribus dolorem dolor commodi. Ratione eaque voluptate voluptatibus mollitia
-                    doloremque suscipit perferendis earum.
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. In impedit mollitia similique tenetur,
-                    excepturi soluta culpa perferendis magni perspiciatis ullam porro rerum amet inventore voluptates
-                    ad, minima facere quam asperiores.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet delectus laudantium aut recusandae
-                    quo aliquid cum magni. Praesentium, suscipit dolor reprehenderit unde natus laboriosam? Provident
-                    rem officiis et impedit fugit?
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quasi ullam nemo neque aut
-                    reprehenderit! Animi adipisci omnis eius iure ullam, dolorum odit ut nostrum atque repellat in earum
-                    velit.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum rem natus sapiente, dolores, ratione
-                    ducimus sequi iusto mollitia porro nobis eligendi ipsum, quibusdam minus beatae provident totam enim
-                    est et.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae magnam, debitis veritatis libero
-                    ipsum odio, architecto neque quibusdam cupiditate iste distinctio dignissimos temporibus! Harum eius
-                    possimus tenetur tempora placeat tempore?
-                </p>
-            </div>
+                </thead>
+                <tbody>
+                    <!-- Donor data will be displayed here dynamically -->
+                </tbody>
+            </table>
+        
+             
+                
+                
+            
+            
         </div>
+        <!-- Add this modal markup at the end of your HTML body -->
+        <div id="editDonorModal" class="modal">
+          <div class="modal-content">
+             <span class="close">&times;</span>
+             <label for="newName">Donor Name:</label>
+             <input type="text" id="newName" required>
+             <label for="newAge">Age:</label>
+             <input type="text" id="newAge" required>
+             <label for="newRegistration">Registration Date:</label>
+             <input type="text" id="newRegistration" required>
+             <label for="newBloodType">Blood type:</label>
+             <input type="text" id="newBloodType" required>
+             <label for="newContact">Contact:</label>
+             <input type="text" id="newContact" required>
+             <button id="saveChangesBtn">Save Changes</button>
+          </div>
+        </div>
+  
     </section>
     <!-- Who End -->
 
@@ -186,6 +172,7 @@
     <script type="text/javascript" src="js/swiper.min.js"></script>
     <script type="text/javascript" src="js/wow.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/script.js"></script> 
 </body>
  
 </html>
