@@ -6,47 +6,45 @@ body {
  
 /***************************/
 /* Nav 2 Start */
- 
-#Nav2 .navbar-nav li {
-  border-right: 1px solid lightgray;
-  padding-right: 5px;
-  padding-left: 5px;
+
+/* Navbar styles */
+#Nav2 .navbar-nav .nav-link {
+  padding: 10px 15px;
 }
- 
-#Nav2 .navbar-nav li .selected {
+
+#Nav2 .navbar-nav .nav-link.selected {
   color: darkred;
   border-bottom: 4px solid darkred;
 }
- 
-#Nav2 .navbar-nav li a:hover {
+
+#Nav2 .navbar-nav .nav-link:hover {
+  color: darkred;
   border-bottom: 4px solid darkred;
-  color: darkred;
 }
- 
-#Nav2 .signup {
-  color: darkred;
-  background: none;
-  font-size: 18px;
+
+#Nav2 .navbar-brand img {
+  max-width: 100%;
+  height: auto;
 }
- 
-#Nav2 .signup:hover {
-  color: red;
+
+@media (max-width: 768px) {
+  #Nav2 .navbar-nav {
+      margin-top: 10px;
+  }
+  
+  #Nav2 .navbar-toggler {
+      margin-right: 0;
+  }
+  
+  #Nav2 .navbar-collapse {
+      border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  #Nav2 .navbar-nav .nav-item {
+      border-right: none;
+  }
 }
- 
-#Nav2 .login {
-  color: darkorange;
-  background: rgb(51, 58, 65);
-  font-size: 18px;
-  padding: 5px 35px 5px 35px;
-  margin-left: 15px;
-  margin-right: 18px;
-  border-radius: 5px;
-}
- 
-#Nav2 .login:hover {
-  color: red;
-  transition: color 0.5s;
-}
+
  
 /* Nav 2 End */
 /***************************/
