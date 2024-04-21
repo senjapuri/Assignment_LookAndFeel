@@ -49,6 +49,9 @@ $(document).ready(function () {
 
 // Chart Initialization
 try {
+  
+
+
   // Bar Chart
   const barCtx = document.getElementById('barChart');
   new Chart(barCtx, {
@@ -116,7 +119,7 @@ try {
         easing: 'easeInOutQuart'
       },
       responsive: true,
-      maintainAspectRatio: true
+      maintainAspectRatio: false
     }
   });
 
@@ -177,7 +180,7 @@ try {
         easing: 'easeInOutQuart'
       },
       responsive: true,
-      maintainAspectRatio: true
+      maintainAspectRatio: false
     }
   });
 
@@ -235,7 +238,7 @@ try {
         easing: 'easeInOutQuart'
       },
       responsive: true,
-      maintainAspectRatio: true
+      maintainAspectRatio: false
     }
   });
 }

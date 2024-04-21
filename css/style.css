@@ -425,6 +425,106 @@ p {
 /* Requests End */
 /***************************/
  
+
+#dashboard {
+  background-color: #ffffff; /* Light background color */
+  padding: 1px 0; /* Add padding */
+  text-align: center; /* Center-align content */
+  margin-left: auto; /* Move the dashboard to the left */
+  margin-right: auto; /* Center-align the dashboard horizontally */
+}
+
+
+#dashboard .container {
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Center content horizontally */
+}
+
+#dashboard .card {
+  background-color: #f4d2d2; /* Similar background color to charts */
+  padding: 1px; /* Add padding */
+  margin: 0 5px 10px; /* Add margin */
+  border-radius: 10px; /* Add border radius */
+  border-color: darkred; /* Border color */
+  box-shadow: 0 4px 8px rgba(214, 8, 8, 0.1); /* Add shadow */
+  max-width: calc(33.33% - 20px); /* Set max-width for each card to ensure they fit within the container */
+  color: darkred; /* Font color */
+  font-family: 'Times New Roman', Times, serif; /* Font family */
+}
+
+#dashboard .card-title {
+  font-size: 24px; /* Title font size */
+  font-weight: bold; /* Title font weight */
+}
+
+#dashboard .card .card-text {
+  color: darkred; /* Font color */
+  font-weight: bold; /* Make font bold */
+  font-family: 'Times New Roman', Times, serif; /* Font family */
+  font-size: 24px; /* Font size */
+  text-align: center; /* Align text center */
+}
+
+#dashboard .card-heading {
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+
+#donations {
+  background-color: #ffffff; /* Light background color */
+
+  text-align: center; /* Center-align content */
+  margin-left: auto; /* Move the dashboard to the left */
+  margin-right: auto; /* Center-align the dashboard horizontally */
+  
+}
+
+
+
+#donations .table {
+  margin-left: auto; /* Move the dashboard to the left */
+  margin-right: auto; /* Center-align the dashboard horizontally */
+  text-align: center;
+  background-color: #f4d2d2; /* Similar background color to charts */
+  padding: 1px; /* Add padding */
+  margin: 0 5px 10px; /* Add margin */
+  border-radius: 5px; /* Add border radius */
+  border-color: darkred; /* Border color */
+  box-shadow: 0 4px 8px rgba(214, 8, 8, 0.1); /* Add shadow */
+  color: darkred; /* Font color */
+  font-family: 'Times New Roman', Times, serif; /* Font family */
+}
+
+#donations .table th {
+  color: darkred; /* Font color */
+  font-family: 'Times New Roman', Times, serif; /* Font family */
+  font-size: 1rem; /* Font size */
+  font-weight: bold;
+  padding: px;
+  text-align: left;
+  border-bottom: 2px solid darkred; /* Border color */
+}
+
+#donations .table td {
+  color: darkred; /* Font color */
+  font-family: 'Times New Roman', Times, serif; /* Font family */
+  font-size: 0.9rem; /* Font size */
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd; /* Border color */
+}
+
+#donations .donation-heading {
+  color: darkred;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+
+
 /* About us */
 /*****************************************************************/
  
