@@ -654,60 +654,55 @@ p {
 /* Donor CRUD */
  
 /***************************/
+/***************************/
 /* Footer Start */
  
 #footer {
   background-color: rgb(51, 58, 65);
-  height: auto;
   color: white;
-  bottom: 0;
-  width: 100%;
+  padding: 20px 0;
 }
- 
+
 #footer .foot-info {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  width: 90%;
-  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 20px;
 }
- 
-#footer .foot-info p {
-  padding-top: 20px;
-}
- 
-#footer .footer-menu{
+
+#footer .footer-menu {
   display: flex;
   align-items: center;
 }
- 
-#footer ul {
-  padding-top: 20px;
-  display: inline-flex;
+
+#footer .menu {
   list-style: none;
   text-align: center;
+  padding: 0;
+  width: 200px;
 }
- 
-#footer ul a {
-  font-size: 20px;
+
+#footer .menu li {
   margin-bottom: 10px;
+}
+
+#footer .menu a {
+  font-size: 16px;
   text-decoration: none;
   color: white;
-  width: 120px;
 }
- 
-#footer ul a li {
-  margin-bottom: 10px;
-}
- 
+
 #footer .menu a:hover {
   color: rgb(213, 3, 1);
 }
- 
-#sub-footer{
-  margin-bottom: 160px;
+
+@media (max-width: 768px) {
+  #footer .menu {
+      margin-bottom: 20px;
+  }
 }
- 
+
+
 /* Footer End */
+/***************************/
 /***************************/
  
  
