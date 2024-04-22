@@ -87,29 +87,30 @@
                 <input type="text" id="RecipientName" class="form-control" placeholder="Enter Recipent name" required>
             </div>
 
-            <div class="form-group">
-                <label for="RecipientAge">Age:</label>
-                <input type="text" id="RecipientAge" class="form-control" placeholder="Enter age" required>
+            <div class="form-row">
+                <div class="form-group col-md-4">
+                    <label for="RecipientAge">Age:</label>
+                    <input type="text" id="RecipientAge" class="form-control" placeholder="Enter age" required>
+                </div>
+    
+    
+                <div class="form-group col-md-4">
+                    <label for="BloodType">Blood Type:</label>
+                    <input type="text" id="BloodType" class="form-control" placeholder="Enter blood type" required>
+                </div>
+    
+                <div class="form-group col-md-4">
+                    <label for="Contact">Contact:</label>
+                    <input type="text" id="Contact" class="form-control" placeholder="Enter contact number" required>
+                </div>
             </div>
-
-
-            <div class="form-group">
-                <label for="BloodType">Blood Type:</label>
-                <input type="text" id="BloodType" class="form-control" placeholder="Enter blood type" required>
-            </div>
-
-            <div class="form-group">
-                <label for="Contact">Contact:</label>
-                <input type="text" id="Contact" class="form-control" placeholder="Enter contact number" required>
-            </div>
-
-            
 
             <button type="submit" class="btn btn-primary">Add Recipient</button>
         </form>
+        <br>
 
         <!-- Table to display existing donors -->
-        <table id="recipientTable" class="table">
+        <table id="recipientTable" class="table table-responsive">
             <thead>
                 <tr>
                     <th>Recipient Name</th>
