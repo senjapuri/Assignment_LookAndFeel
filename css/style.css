@@ -262,7 +262,7 @@ body {
  
 
 /* Guide Start */
-
+ 
 #Guide {
   overflow: hidden;
   padding-top: 50px;
@@ -270,26 +270,26 @@ body {
 }
 #Guide .container {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  justify-content: center; /* Center-align content horizontally */
 }
-#Guide .left {
-  width: 45%;
-  color: black;
+#Guide .box {
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center; /* Center-align content within the box */
 }
-#Guide .right {
-  width: 45%;
+#Guide img {
+  margin-bottom: 10px; /* Add space below the image */
 }
-#Guide .form-group {
-  margin-bottom: 20px;
+#Guide p {
+  margin-top: 0;
+  margin-bottom: 10px; /* Add space below the paragraph */
 }
-
+#Guide h2:last-child {
+  margin-bottom: 10px; /* Add space below the last heading */
+}
 button[type="submit"] {
   width: 100%;
   padding: 10px;
-  margin-bottom: 10px;
-}
-button[type="submit"] {
   background-color: #b5b9b6;
   color: white;
   border: none;
@@ -298,10 +298,7 @@ button[type="submit"] {
 button[type="submit"]:hover {
   background-color: #890a0a;
 }
-p {
-  margin-top: 10px;
-}
-
+ 
 /* Guide End */
 
 
@@ -654,60 +651,55 @@ p {
 /* Donor CRUD */
  
 /***************************/
+/***************************/
 /* Footer Start */
  
 #footer {
   background-color: rgb(51, 58, 65);
-  height: auto;
   color: white;
-  bottom: 0;
-  width: 100%;
+  padding: 20px 0;
 }
- 
+
 #footer .foot-info {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  width: 90%;
-  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 20px;
 }
- 
-#footer .foot-info p {
-  padding-top: 20px;
-}
- 
-#footer .footer-menu{
+
+#footer .footer-menu {
   display: flex;
   align-items: center;
 }
- 
-#footer ul {
-  padding-top: 20px;
-  display: inline-flex;
+
+#footer .menu {
   list-style: none;
   text-align: center;
+  padding: 0;
+  width: 200px;
 }
- 
-#footer ul a {
-  font-size: 20px;
+
+#footer .menu li {
   margin-bottom: 10px;
+}
+
+#footer .menu a {
+  font-size: 16px;
   text-decoration: none;
   color: white;
-  width: 120px;
 }
- 
-#footer ul a li {
-  margin-bottom: 10px;
-}
- 
+
 #footer .menu a:hover {
   color: rgb(213, 3, 1);
 }
- 
-#sub-footer{
-  margin-bottom: 160px;
+
+@media (max-width: 768px) {
+  #footer .menu {
+      margin-bottom: 20px;
+  }
 }
- 
+
+
 /* Footer End */
+/***************************/
 /***************************/
  
  
