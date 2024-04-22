@@ -1134,6 +1134,7 @@ button[type="submit"]:hover {
   background-color: darkred;
   color: white;
   padding-left: 20px;
+  width: 100vw;
 }
  
 #donator .container table tr td{

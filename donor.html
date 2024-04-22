@@ -82,38 +82,40 @@
             <h2 style="color: darkred; display: inline-block;">Donor Registration Form</h2>
         </div>
         <form id="addDonorForm">
-            <div class="form-group">
-                <label for="DonorName">Donor Name:</label>
-                <input type="text" id="DonorName" class="form-control" placeholder="Enter donor name" required>
+            <div class="form-row">
+                <div class="form-group col-md-8">
+                    <label for="DonorName">Donor Name:</label>
+                    <input type="text" id="DonorName" class="form-control" placeholder="Enter donor name" required>
+                </div>
+    
+                <div class="form-group col-md-4">
+                    <label for="Age">Age:</label>
+                    <input type="text" id="Age" class="form-control" placeholder="Enter age" required>
+                </div>
             </div>
 
-            <div class="form-group">
-                <label for="Age">Age:</label>
-                <input type="text" id="Age" class="form-control" placeholder="Enter age" required>
+            <div class="form-row">
+                <div class="form-group col-md-4">
+                    <label for="RegistrationDate">Registration Date:</label>
+                    <input type="text" id="RegistrationDate" class="form-control" placeholder="Enter registration date" required>
+                </div>
+    
+                <div class="form-group col-md-4">
+                    <label for="BloodType">Blood Type:</label>
+                    <input type="text" id="BloodType" class="form-control" placeholder="Enter blood type" required>
+                </div>
+    
+                <div class="form-group col-md-4">
+                    <label for="Contact">Contact:</label>
+                    <input type="text" id="Contact" class="form-control" placeholder="Enter contact number" required>
+                </div>                
             </div>
-
-            <div class="form-group">
-                <label for="RegistrationDate">Registration Date:</label>
-                <input type="text" id="RegistrationDate" class="form-control" placeholder="Enter registration date" required>
-            </div>
-
-            <div class="form-group">
-                <label for="BloodType">Blood Type:</label>
-                <input type="text" id="BloodType" class="form-control" placeholder="Enter blood type" required>
-            </div>
-
-            <div class="form-group">
-                <label for="Contact">Contact:</label>
-                <input type="text" id="Contact" class="form-control" placeholder="Enter contact number" required>
-            </div>
-
-            
 
             <button type="submit" class="btn btn-primary">Add Donor</button>
         </form>
-
+<br>
         <!-- Table to display existing donors -->
-        <table id="donorTable" class="table">
+        <table id="donorTable" class="table table-responsive">
             <thead>
                 <tr>
                     <th>Donor Name</th>
