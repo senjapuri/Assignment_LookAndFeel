@@ -28,7 +28,6 @@ The home page serves as the introduction to our website, offering a brief overvi
 - **Articles:** Clicking this link directs users to the full articles page, providing detailed information on blood donation.
 - **New to Blood Donation?:** This section offers facts about blood donation myths and provides a guide for download.
 - **Testimonials:** User testimonials highlighting positive experiences with blood donation.
-- **Footer:** Contains links to other pages and additional information.
   
 *Image Description: The home page image showcases the main navigation bar, the introductory text, the articles link, and a download guide button.*
 ![Home Page](images_readme/home_page1.png)
@@ -39,8 +38,6 @@ The home page serves as the introduction to our website, offering a brief overvi
 ### About Us Page
 The about us page provides comprehensive information about the project and the team.
 - **About the Project:** Describes the website's purpose and its role in facilitating blood donation.
-- **Blood Types and Benefits:** Educates visitors on the importance of different blood types and the benefits of blood donation.
-- **Technologies Used:** Powered by HTML, CSS, and JavaScript to offer a user-friendly interface.
 - **Our Team:** Includes pictures and information about the project team.
 - **ERD Diagram:** Illustrates the database design and relationships.
 
@@ -51,11 +48,11 @@ The about us page provides comprehensive information about the project and the t
 
 ### Dashboard Page
 The dashboard page provides an overview of key metrics and data visualizations.
-- **Cards:** Display summary information such as total donors, total recipients, and available blood bags.
+- **Cards:** Display summary information such as Number of Lives Saved, Number of Donors, and Quantity of Blood.
 - **Charts:**
   1. Average donor registrations monthly (bar graph).
-  2. Monthly blood donations.
-  3. Blood bag availability.
+  2. Monthly blood donations (line graph).
+  3. Blood bag availability (pie chart).
 
 *Image Description: The dashboard page image includes the summary cards and the three charts providing insights into the blood donation activities.*
 ![Dashboard Page](images_readme/dashboard.png)
