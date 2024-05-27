@@ -28,7 +28,7 @@ The home page serves as the introduction to our website, offering a brief overvi
 - **Testimonials:** User testimonials highlighting positive experiences with blood donation.
 - **Footer:** Contains links to other pages and additional information.
 
-![Home Page](sample_images/home_page.png)
+![Home Page](home_page1.png)
 *Image Description: The home page image showcases the main navigation bar, the introductory text, the articles link, and a download guide button.*
 
 ### About Us Page
@@ -94,9 +94,6 @@ The contact us page provides a form for users to get in touch with the project t
 - CSS
 - JavaScript
 
-## Conclusion
-This blood bank management website is designed to streamline the blood donation process, foster connections between donors and recipients, and promote health and community well-being. By leveraging technology for social good, we aim to make a significant impact on public health through increased blood donation awareness and participation.
-
 ---
 
-Feel free to reach out through our contact page if you have any questions or need further information. Together, we can make a difference in the lives of those in need of blood transfusions.
+Feel free to reach out through our About us page - Our Team contacts if you have any questions or need further information. Together, we can make a difference in the lives of those in need of blood transfusions.
