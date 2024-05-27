@@ -28,7 +28,7 @@ The home page serves as the introduction to our website, offering a brief overvi
 - **Testimonials:** User testimonials highlighting positive experiences with blood donation.
 - **Footer:** Contains links to other pages and additional information.
 
-![Home Page](home_page1.png)
+![Home Page](images_readme/home_page1.png)
 *Image Description: The home page image showcases the main navigation bar, the introductory text, the articles link, and a download guide button.*
 
 ### About Us Page
