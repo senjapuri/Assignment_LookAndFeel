@@ -32,12 +32,8 @@ The home page serves as the introduction to our website, offering a brief overvi
   
 *Image Description: The home page image showcases the main navigation bar, the introductory text, the articles link, and a download guide button.*
 ![Home Page](images_readme/home_page1.png)
-
 ![Home Page](images_readme/home_page2.png)
-
 ![Home Page](images_readme/home_page3.png)
-
-![Home Page](images_readme/home_page4.png)
 
 
 ### About Us Page
@@ -50,7 +46,6 @@ The about us page provides comprehensive information about the project and the t
 
 *Image Description: The about us page image shows the project description, blood types information, team photos, and the ERD diagram.*
 ![About Us Page](images_readme/about_us1.png)
-
 ![About Us Page](images_readme/about_us2.png)
 
 
