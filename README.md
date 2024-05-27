@@ -1,5 +1,5 @@
-## Blood Bank Management Website
-Project Overview
+### Blood Bank Management Website
+
 This project, created by our group using HTML, CSS, and JavaScript, aims to facilitate blood donation by connecting donors with recipients, raising awareness about the importance of blood donation, and dispelling myths surrounding the process. We developed a fully functional static website that implements CRUD functionality with a master-detail relationship and streamlined, user-friendly interfaces.
 
 ## Objective
