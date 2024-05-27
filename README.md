@@ -82,7 +82,7 @@ This page provides a list of available blood bags for donation.
 - **Table:** Displays details of available blood bags including blood type, quantity, and expiration date.
 
 *Image Description: The blood bags available page image shows the table listing available blood bags and their details.*
-![Blood Bags Available](images_readme/bags.png)
+![Blood Bags Available](images_readme/bag.png)
 
 
 ## How to Use
