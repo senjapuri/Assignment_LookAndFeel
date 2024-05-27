@@ -2,6 +2,8 @@
 
 This project, created by our group using HTML, CSS, and JavaScript, aims to facilitate blood donation by connecting donors with recipients, raising awareness about the importance of blood donation, and dispelling myths surrounding the process. We developed a fully functional static website that implements CRUD functionality with a master-detail relationship and streamlined, user-friendly interfaces.
 
+Link to the website: http://myweb.usf.edu/~senjapuri/
+
 ## Objective
 - Facilitate blood donation by connecting donors with recipients.
 - Raise awareness about the importance of blood donation and dispel myths.
@@ -27,9 +29,16 @@ The home page serves as the introduction to our website, offering a brief overvi
 - **New to Blood Donation?:** This section offers facts about blood donation myths and provides a guide for download.
 - **Testimonials:** User testimonials highlighting positive experiences with blood donation.
 - **Footer:** Contains links to other pages and additional information.
-
-![Home Page](images_readme/home_page1.png)
+  
 *Image Description: The home page image showcases the main navigation bar, the introductory text, the articles link, and a download guide button.*
+![Home Page](images_readme/home_page1.png)
+
+![Home Page](images_readme/home_page2.png)
+
+![Home Page](images_readme/home_page3.png)
+
+![Home Page](images_readme/home_page4.png)
+
 
 ### About Us Page
 The about us page provides comprehensive information about the project and the team.
@@ -39,8 +48,11 @@ The about us page provides comprehensive information about the project and the t
 - **Our Team:** Includes pictures and information about the project team.
 - **ERD Diagram:** Illustrates the database design and relationships.
 
-![About Us Page](sample_images/about_us_page.png)
 *Image Description: The about us page image shows the project description, blood types information, team photos, and the ERD diagram.*
+![About Us Page](images_readme/about_us1.png)
+
+![About Us Page](images_readme/about_us2.png)
+
 
 ### Dashboard Page
 The dashboard page provides an overview of key metrics and data visualizations.
@@ -50,36 +62,33 @@ The dashboard page provides an overview of key metrics and data visualizations.
   2. Monthly blood donations.
   3. Blood bag availability.
 
-![Dashboard Page](sample_images/dashboard_page.png)
 *Image Description: The dashboard page image includes the summary cards and the three charts providing insights into the blood donation activities.*
+![Dashboard Page](images_readme/dashboard.png)
+
 
 ### Donor Registration Form
 The donor registration form allows individuals to register as blood donors.
 - **Form Fields:** Includes fields for personal information, blood type, and contact details.
 
-![Donor Registration Form](sample_images/donor_registration_form.png)
 *Image Description: The donor registration form image shows the form fields for entering donor information.*
+![Donor Registration Form](images_readme/donor.png)
+
 
 ### Recipient Registration Form
 The recipient registration form allows individuals in need of blood to register and request donations.
 - **Form Fields:** Includes fields for personal information, blood type needed, and contact details.
 
-![Recipient Registration Form](sample_images/recipient_registration_form.png)
 *Image Description: The recipient registration form image shows the form fields for entering recipient information.*
+![Recipient Registration Form](images_readme/recipient.png)
+
 
 ### Blood Bags Available
 This page provides a list of available blood bags for donation.
 - **Table:** Displays details of available blood bags including blood type, quantity, and expiration date.
 
-![Blood Bags Available](sample_images/blood_bags_available.png)
 *Image Description: The blood bags available page image shows the table listing available blood bags and their details.*
+![Blood Bags Available](images_readme/bags.png)
 
-### Contact Us
-The contact us page provides a form for users to get in touch with the project team.
-- **Form Fields:** Includes fields for name, email, subject, and message.
-
-![Contact Us](sample_images/contact_us.png)
-*Image Description: The contact us page image shows the contact form for users to send messages.*
 
 ## How to Use
 1. **Navigate through the website:** Use the navigation bar to access different pages.
